@@ -1,0 +1,354 @@
+body {
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.navbar-logo {
+    width: 200px;
+    height: auto;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #cccccc;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-corners {
+    border-radius: 15px; 
+}
+
+.main-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-right: 20px;
+}
+
+.sub-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 500px; 
+    text-align: left; 
+    margin-top: 10px; 
+}
+
+.text-below {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blue-box {
+    background-color: #007bff; 
+    height: 60px; 
+    width: 112%; 
+    margin-top: 20px; 
+    position: center;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    background-color: #1391AD; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.benefits div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.img2 {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.section-content {
+    background-color: #000000; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-content {
+    max-width: 600px; 
+}
+
+.text-content h1 {
+    font-size: 2.5rem; 
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1rem; 
+    line-height: 1.5;
+}
+
+.contact {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.contact h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item i {
+    font-size: 1.5rem; 
+    margin-right: 15px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.trainer-section {
+    display: flex;
+    align-items: center;
+    background-color: #000000; 
+    padding: 20px;
+    margin-bottom: 50px; 
+}
+
+.trainer-image {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 15px; 
+    margin-right: 20px; 
+}
+
+.trainer-text {
+    color: #ffffff;
+    text-align: left;
+}
+
+.trainer-text h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+.trainer-text p {
+    font-size: 1rem; 
+    line-height: 1.5;
+}
+
+
+.trainers-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.trainer-card {
+    text-align: center;
+    max-width: 200px;
+}
+
+.trainer-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.section-content .happy-members {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.section-content .happy-members h1 {
+    text-align: center;
+}
+.trainer-professional img {
+    border-radius: 214px;
+    width: 436px;
+    height: 154px;
+}
+
+.yellow-btn {
+    background-color: yellow;
+    color: black;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+    flex: 1;
+    min-width: 250px; 
+    max-width: 30%; 
+    margin-bottom: 20px; 
+}
+
+.members img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.member-content {
+    text-align: center;
+}
+
+.member-content h2,
+.member-content .job-title {
+    margin: 0;
+}
+
+.description {
+    margin-top: 10px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member {
+        max-width: 100%;
+    }
+}
+
+
+.members div {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+    flex-direction: column;
+}
+.members img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.members .member-content {
+    flex: 0;
+    text-align: center;
+}
+.members h2, .members p.job-title {
+    margin: 0;
+}
+.members .description {
+    margin-top: 10px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.rounded-image {
+    border-radius: 15px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.text-container h1 {
+    margin-right: 20px;
+}
+@media (max-width: 768px) {
+    .text-container {
+        flex-direction: column;
+    }
+    .text-container h1 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.footer {
+    background-color: #1391AD;
+    padding: 20px 0;
+}
+
+.footer .container {
+    background-color: #1391AD;
+    color: #ffffff;
+}
+
+.footer nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer p {
+    margin: 10px 0;
+}
+.footer img {
+    width: 150px;
+}
+
